@@ -1,0 +1,85 @@
+/* Design tokens — voir spec/design-system.md. Ne pas utiliser de valeur
+   arbitraire en dehors de cette échelle (AGENTS.md §8, design-system.md §3). */
+
+:root {
+  /* Neutres — base de l'interface */
+  --color-bg: #fbfaf8; /* blanc chaud, jamais #FFF pur */
+  --color-surface: #ffffff;
+  --color-surface-alt: #f3f1ec;
+  --color-border: #e3dfd7;
+  --color-text: #1c1a17;
+  --color-text-muted: #6b655c;
+
+  /* Primaire — bleu fjord */
+  --color-primary: #2f5d73;
+  --color-primary-hover: #264c5e;
+  --color-primary-soft: #e4edf1;
+
+  /* Accent — bois/ambre, pour XP et récompenses */
+  --color-accent: #c4854b;
+  --color-accent-soft: #f6ede2;
+
+  /* Sémantique */
+  --color-success: #4a7c59;
+  --color-success-soft: #e7f0e9;
+  --color-error: #a8453a;
+  --color-error-soft: #f7e9e7;
+  --color-warning: #b8873b;
+  --color-info: #4a6d8c;
+
+  /* Typographie */
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-nb: "Source Serif 4", Georgia, serif; /* texte norvégien = sérif */
+  --font-mono: "JetBrains Mono", monospace; /* IPA */
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 25px;
+  --text-2xl: 31px;
+  --text-3xl: 39px;
+
+  /* Espacement — base 4px */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Rayons et ombres */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px rgb(28 26 23 / 0.05);
+  --shadow-md: 0 2px 8px rgb(28 26 23 / 0.07);
+  --shadow-lg: 0 8px 24px rgb(28 26 23 / 0.09);
+
+  /* Mouvement */
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="dark"] {
+  --color-bg: #16181a;
+  --color-surface: #1e2124;
+  --color-surface-alt: #262a2e;
+  --color-border: #343a3f;
+  --color-text: #edeae5;
+  --color-text-muted: #9b958c;
+  --color-primary: #7fafc4;
+  --color-primary-hover: #97c0d2;
+  --color-primary-soft: #22333c;
+  --color-accent: #d9a067;
+  --color-success: #7fa98a;
+  --color-error: #d4837a;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@norsk-laere/shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@norsk-laere/config": "workspace:*",
+    "@types/node": "^22.19.21",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  }
+}

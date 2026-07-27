@@ -1,0 +1,9 @@
+{
+  "extends": "@norsk-laere/config/typescript/node.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": "./src",
+    "baseUrl": "."
+  },
+  "include": ["src"]
+}

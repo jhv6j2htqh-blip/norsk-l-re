@@ -1,0 +1,11 @@
+{
+  "extends": "@norsk-laere/config/typescript/node.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "noEmit": false,
+    "declaration": false
+  },
+  "include": ["src"]
+}

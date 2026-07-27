@@ -1,0 +1,11 @@
+{
+  "name": "@norsk-laere/content",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "echo \"@norsk-laere/content: pas encore de code TS (contenu ajouté à partir de la Phase 1)\"",
+    "test": "echo \"@norsk-laere/content: pas encore de tests (contenu ajouté à partir de la Phase 1)\"",
+    "build": "echo \"@norsk-laere/content: pnpm content:build sera ajouté avec le premier contenu (Phase 1)\""
+  }
+}
