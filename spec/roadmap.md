@@ -5,20 +5,17 @@ que si la précédente satisfait sa définition de « terminé ».
 
 ---
 
-## Phase 0 — Fondations (1 semaine) — ✅ terminée le 2026-07-26
+## Phase 0 — Fondations (1 semaine)
 
-- [x] Monorepo pnpm + workspaces, tsconfig strict partagé
-- [x] ESLint 9 flat + Prettier + hook pre-commit
-- [x] Vite + React 19 + Tailwind 4 + shadcn/ui
-- [x] Tokens du design system en CSS variables
-- [x] Schéma Drizzle + migrations SQLite locales
-- [x] Couche d'abstraction DB (web `wa-sqlite`/OPFS ↔ natif Capacitor)
-- [x] CI GitHub Actions : typecheck, lint, test, build
+- [ ] Monorepo pnpm + workspaces, tsconfig strict partagé
+- [ ] ESLint 9 flat + Prettier + hook pre-commit
+- [ ] Vite + React 19 + Tailwind 4 + shadcn/ui
+- [ ] Tokens du design system en CSS variables
+- [ ] Schéma Drizzle + migrations SQLite locales
+- [ ] Couche d'abstraction DB (web `wa-sqlite`/OPFS ↔ natif Capacitor)
+- [ ] CI GitHub Actions : typecheck, lint, test, build
 
 **Livrable** : app vide qui démarre, lit et écrit en SQLite sur web et Android.
-Vérifié en conditions réelles (Playwright/Chromium) côté **web** uniquement —
-voir `spec/progress.md` (aucun SDK Android/émulateur disponible dans cet
-environnement ; le driver natif compile mais n'a pas pu être exécuté).
 
 ---
 
